@@ -6,7 +6,8 @@ var questions = [
     "Việt Bắc",
     "Tây Tiến",
     "Tiếng hát con tàu",
-    "Đất Nước"
+    "Đất Nước",
+    "tốt nhất là lo học đừng đoán già đoán non "
 ];
 
 // Function to generate a random question
@@ -20,7 +21,7 @@ var questionContainer = document.getElementById('question');
 var generateBtn = document.getElementById('generate-btn');
 
 // Set initial text content for questionContainer
-questionContainer.textContent = "Ấn vào nút dưới đây để biết đề văn nhé";
+questionContainer.textContent = "Ấn vào nút dưới đây để biết đề văn nè";
 
 // Event listener for the button click to generate a new question
 generateBtn.addEventListener('click', function() {
